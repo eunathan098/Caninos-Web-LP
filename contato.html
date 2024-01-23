@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="app.js"></script>
+    <title> Contato </title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1> <span class="red">CANINOS</span> WEB </h1>
+        <ul>
+            <li><a class="navigation" href="index.html">HOME</a> </li>
+            <li><a class="navigation" href="galeria.html">GALERIA</a></li>
+            <li><a class="navigation" href="contato.html">CONTATO</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sessao1">
+                <img class="desenhos" src="dogcelular.png" alt="">
+                <div class="redes-sociais">
+                    <h3 class="text-blue"> ACESSE NOSSAS REDES </h3><br>
+                    <a href="https://web.whatsapp.com/"><img src="whatsapp.png" alt="" height="150px"></a>
+                    <a href="https://github.com/">
+                        <img src="github.png" alt="" height="130px">
+                    </a><br><br>
+                    <h3 class="text-blue"> OU NOS ENVIE UMA MENSAGEM </h3><br>
+                    <button id="btn" onclick="abrirContainer()"> Avalie nos com seu e-mail </button>
+                </div>
+        </section>
+        <div id="container">
+            <div>
+                <input class="campos" type="email" placeholder="Digite seu e-mail...">
+                <br><br>
+                <input class="campos" type="password" placeholder="Digite a sua senha..."><br><br>
+                <input class="btn-envio" id="enviar" onclick="enviarMsg()" type="button" value="ENVIAR">
+            </div> 
+        </div>
+        <div class="img">
+            <h3 class="text-blue"> DESENVOLVIDO POR NATHAN CRUZ </h3>
+        </div>
+    </main>
+</body>
+</html>
