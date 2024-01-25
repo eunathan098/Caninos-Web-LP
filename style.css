@@ -1,61 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, img{
+html, body {
     height: 100%;
-    width: 100%;
 }
-   
-header{
+
+header {
     padding: 10px;
     width: 100%;
     box-shadow: 0px -20px 50px black;
-    flex-wrap: nowrap;
 }
 
-.nav{
+.nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 5px;
     background-color: white;
-    flex-wrap: nowrap;
 }
 
-h1{
+h1 {
     color: rgb(142, 142, 246);
     margin: 5px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.red{
+.red {
     color: rgb(246, 104, 104);
 }
 
-ul{
-    display:flex;
+ul {
+    display: flex;
     align-items: center;
 }
 
-ul li{
+ul li {
     list-style: none;
     gap: 32px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: rgb(142, 142, 246);
 }
 
-.navigation{
+.navigation {
     text-decoration: none;
     color: rgb(142, 142, 246);
     list-style: none;
@@ -63,72 +60,67 @@ a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.navigation:hover{
+.navigation:hover {
     color: rgb(246, 104, 104);
 }
 
-main{
+main {
     height: 100%;
+    margin-top: 50px;
 }
 
-.sessao1{
+.sessao1 {
     text-align: center;
     align-items: center;
     width: 100vw;
-    height: 100%;
-}
-
-.container-sessao1{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    flex-wrap: nowrap;
-}
-
-.img {
     height: 100vh;
-    @media only screen and (max-width: 767px) {
-        background-size: auto 100%; 
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.btn{
-    background-color: red;
+.container-sessao1 {
+    width: 100%;
+    text-align: center;
 }
 
-.classbtn{
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.classbtn {
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100vw;
+    margin-top: 15px;
 }
 
-#btn{
+#btn {
     padding: 20px;
     border-radius: 50px;
     border: transparent;
-    font-family: 'Times New Roman', Times, serif;
     box-shadow: 10px 10px 40px rgb(143, 143, 249);
     color: white;
-    margin-top: 15px;
     background-color: rgb(142, 142, 246);
     cursor: pointer;
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#btn:hover{
+#btn:hover {
     background-color: white;
     color: rgb(142, 142, 246);
     transition: 1s;
 }
 
-.text-red{
+.text-red {
     color: rgb(246, 104, 104);
     font-size: 40px;
 }
 
-.text-blue{
+.text-blue {
     color: rgb(142, 142, 246);
     font-size: 13px;
     font-weight: bold;
